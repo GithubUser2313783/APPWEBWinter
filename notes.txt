@@ -1,0 +1,67 @@
+HOW TO CREATE REACT SERVER
+
+1. npm create vite@latest
+2. Select a name
+3. Framework (REACT)
+4. Variant (JavaScript)
+5. Go to repertor file created and execute "npm install"
+6. npm run dev
+
+NOTES
+
+handleClickOn one use -> handleClickOn() loop (onClick)
+
+EXAM
+
+fragment (<> - </>) --To add an extra luggage in the DOM
+
+<>
+        main
+        /main
+    footer
+    /footer
+</>
+
+function UserInfo(props) {
+  return (
+    <p>{props.name} a {props.age} ans.</p>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <UserInfo name="Alice" age={25} />
+      <UserInfo name="Bob" age={30} />
+    </div>
+  );
+}
+
+({name, contact}) X
+
+function app(props) {
+    props.name
+    props.contact.name X
+}
+
+
+INTRO
+DDA
+REACT DYNAMIC
+STATE
+
+20
+
+10 SHORT QUESTIONS
+3 REACT
+5-6 STATE
+
+PRATIQUE
+
+HTML CSS
+COMPONENTS
+PROPS
+MAP LISTE OBJETS
+ÉCOUTEUR POUR CHANGER 
+STATE
+
