@@ -8,6 +8,8 @@ if (i % 2 == 0) {
 
 i % 2 == 0 ? console.log("i est pair") : console.log("i est impair")
 
+i % 2 == 0 && console.log("i est pair")
+
 const car = {
     brand: "Volkswagen",
     model: "Microbus",

@@ -1,4 +1,4 @@
-const names = ["john", "deedee", "frankie", "alexis", "shelby"]
+const names = ["john", "deedee", "frankie", "alexis", "clay"]
 
     // const CapName = names.map(names => names.charAt(0).toUpperCase() + names.slice(1));
     // console.log(CapName)

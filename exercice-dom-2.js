@@ -1,4 +1,17 @@
-let elems = document.getElementsByTagName("body");
-for (let i=0;i<elems.length;i++) {
-    elems[i].style.backgroundColor="rgb(53, 81, 81)";
-}
+/*let elemone = document.getElementById("1");
+elemone.innerHTML = "pomme";
+
+let elemtwo = document.getElementById("2");
+elemtwo.innerHTML = "poire";
+
+let elemthree = document.getElementById("3");
+elemthree.innerHTML = "banane";
+*/
+function changeInnerHTML(id, innerHTML) {
+    let elm = document.getElementById(id);
+    elm.innerHTML = innerHTML;
+} 
+
+changeInnerHTML("1", "pomme")
+changeInnerHTML("2", "poire")
+changeInnerHTML("3", "banane")
